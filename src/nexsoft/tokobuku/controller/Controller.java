@@ -46,7 +46,7 @@ public class Controller {
 
 		switch (pilih) {
 		case 1:
-
+			TambahBuku();
 			break;
 		case 2:
 			LihatBuku();
@@ -66,6 +66,7 @@ public class Controller {
 		Scanner in = new Scanner(System.in);
 		
 		canvas.addComponent(new Label("Judul Buku-->"));
+//		manager.addView(canvas);
 		manager.render();
 		String judul = in.nextLine();
 		model.setJudulBuku(judul);

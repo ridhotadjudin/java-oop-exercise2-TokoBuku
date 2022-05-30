@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UIManager {
+	
 	List<View> lstView = new ArrayList<View>();
 	
 	public UIManager() {
